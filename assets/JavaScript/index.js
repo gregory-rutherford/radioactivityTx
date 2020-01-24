@@ -1,5 +1,5 @@
-console.log("he");
+import data from "../Data/data.js"
 
-const test = document.getElementsByClassName("photos");
+const test = document.getElementsByClassName("ig");
 
 console.log(test);
