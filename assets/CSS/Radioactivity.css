@@ -1,11 +1,51 @@
 body {
     display: flex;
-    display: grid;
+    flex-direction: column;
     font-family: 'Slabo 27px', serif;
     text-align: center;
-
+    margin: 0;
 }
 
 #title {
-    font-size: 38px;  
+    font-size: 62px; 
+    font-weight: 700;
+    letter-spacing: 1rem;
+    border: 1px solid black;
+    margin-bottom: none;
 }
+
+#japanese {
+    font-size: 38px;
+    font-weight: 600;
+    border: 1px solid black;
+    margin-bottom: none;
+}
+
+header {
+    background:#f8fe38;
+    height: 100vh;
+    justify-content: center;
+}
+
+.logo {
+    border-radius: 15%;
+}
+
+.tourDates {
+    display: flex;
+    flex-direction: column;
+    background: cyan;
+}
+
+.datesBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 25% 125px auto;
+    border: 1px solid red;
+}
+
+.showInfo {
+    list-style-type: none;
+    border: 1px solid red;
+}
+
