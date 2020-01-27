@@ -19,11 +19,11 @@ function displayDates(){
         const showDate = show.date;
         const venue = show.venue;
         return `
-        <li class="showInfo">
-            <p class="title">${location}</p>
-            <p class="date">${showDate}</p>
-            <p class="venue">${venue}</p>
-        </li>
+        <div class="showInfo">
+            <li class="title">${location}</li>
+            <li class="date">${showDate}</li>
+            <li class="venue">${venue}</li>
+        </div>
         `;
       })
       .join("");
