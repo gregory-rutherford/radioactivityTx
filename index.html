@@ -1,43 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta http-equiv="Content-Type" charset="utf-8" content="text/html" />
+    <meta http-equiv="Content-Type" charset="utf-8" content="text/html" />
     <title>RadioactivityTX</title>
+    <link rel="stylesheet" href="./assets/CSS/Radioactivity.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="home">
     <header>
-      <p>Radioactivity</p>
-      <p>放射能</p>
-      <nav>
-          <ul>
-              <li>Links</li>
-          </ul>
-      </nav>
+      <img class="logo" src="assets/Images/crop.jpg" />
+      <p id="japanese">放射能</p>
     </header>
-
-    <section className="ig">
-        <article>
-
-        </article>
-
-        <figure>
-
-        </figure>
-        
-    </section>
-
-    <section className=tourDates>
-        <article>
-            <ul>
-                <li></li>
-            </ul>
-            <progress value="22" max="100"></progress>
-        </article>
-    </section>
-
-
+    <section class="bgBody">
+    <article class="albums">
+      <iframe
+        src="https://bandcamp.com/EmbeddedPlayer/album=3193460818/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/"
+        style="border: 0; width: 100%; height: 120px;"
+        seamless=""
+        id="bandcamp"
+      ></iframe>
+    </article>
 
     
+    <article class="video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/SDT8jKsKp-s"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </article>
+
+    <article class="tourDates">
+      <h2>Tour Dates</h2>
+      <ul class="datesBox"></ul>
+    </article>
+    
+
+    <article class="contact">
+      <img src="assets/Images/radioactivitybw.jpg" class="bandPic">
+      <div class="contactBox">
+        <h2>Contact</h2>
+        <p>Radioactivity:</p>
+        <a href="https://www.facebook.com/radioactivitytx/">facebook</a>
+        <a href="https://www.instagram.com/radioactivitytx/?hl=en">instagram</a>
+        <h2>Booking</h2>
+        <h3>USA/Canada</h3>
+        <a href="mailto:"brian@wiredtourbooking.com>Wired Tour Booking</a>
+        <h3>Europe</h3>
+        <a href="mailto:"info@otistours.com>Otis Tours</a>
+      </div>
+    </article>
+    </section>
   </body>
-  <script src="./assets/JavaScript/index.js"></script>
+  <script src="./assets/JavaScript/index.js" type="text/JavaScript"></script>
 </html>

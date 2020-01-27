@@ -1,0 +1,109 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  font-family: "Slabo 27px", serif;
+  text-align: center;
+  margin: 0;
+  align-items: center;
+}
+
+.bgBody {
+  background: rgb(191, 190, 169);
+  background: linear-gradient(
+    180deg,
+    rgba(191, 190, 169, 1) 0%,
+    rgba(171, 155, 166, 1) 70%,
+    rgba(171, 155, 166, 1) 100%
+  );
+  width: 100vw;
+}
+
+#title {
+  font-size: 62px;
+  font-weight: 700;
+  letter-spacing: 1rem;
+  border: 1px solid black;
+  margin-bottom: none;
+}
+
+#japanese {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+header {
+  background: rgb(191, 190, 169);
+  background: linear-gradient(
+    11deg,
+    rgba(191, 190, 169, 1) 64%,
+    rgba(171, 155, 166, 1) 81%
+  );
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  border-radius: 20%;
+}
+
+.albums {
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#bandcamp {
+    max-width: 700px;
+}
+
+/* begin tour dates and video section */
+
+.tourDates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.datesBox {
+  display: grid;
+  grid-template-columns: auto;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+.showInfo {
+  list-style-type: none;
+  border-bottom: 1px solid whitesmoke;
+  margin: 6px;
+}
+
+li {
+    margin: 3px;
+}
+
+/* end tour dates section */
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.bandPic {
+  max-width: 730px;
+  max-height: 444px;
+}
+
+.contactBox {
+  background-color: whitesmoke;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
