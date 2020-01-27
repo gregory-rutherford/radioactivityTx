@@ -28,7 +28,7 @@
 
 #japanese {
   margin-top: 0;
-  font-size: 38px;
+  font-size: 32px;
 }
 
 header {
@@ -54,6 +54,7 @@ header {
 .video {
   display: flex;
   justify-content: center;
+  margin: 20px;
 }
 
 #bandcamp {
@@ -65,18 +66,24 @@ header {
 .tourDates {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .datesBox {
   display: grid;
   grid-template-columns: auto;
   padding-left: 0px;
+  margin-top: 0px;
 }
 
 .showInfo {
   list-style-type: none;
   border-bottom: 1px solid whitesmoke;
   margin: 6px;
+}
+
+li {
+    margin: 3px;
 }
 
 /* end tour dates section */
