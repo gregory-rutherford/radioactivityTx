@@ -109,8 +109,9 @@ li {
 }
 
 .tourTitle {
-  font-size: 30px;
+  font-size: 38px;
   text-decoration: underline;
+  margin-bottom: 2px;
 }
 /* end tour dates section */
 
