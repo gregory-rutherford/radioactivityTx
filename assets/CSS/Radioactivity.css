@@ -32,6 +32,8 @@ html {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
   background: rgb(191, 190, 169);
   background: linear-gradient(
     11deg,
@@ -44,8 +46,10 @@ header {
 
 .logo {
   border-radius: 20%;
-  box-shadow: 0 0 10px 10px rgb(191, 190, 169) inset;
-
+  max-width: 706px;
+  width: 100%; 
+  height: auto;
+  align-self: center;
 }
 
 .albums {
@@ -127,7 +131,8 @@ li {
 
 .contactBox {
   background-color: rgba(37, 32, 36, 0.767);
-  min-width: 444px;
+  width: 400px;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
