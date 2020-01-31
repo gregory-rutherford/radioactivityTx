@@ -7,7 +7,7 @@ html {
   flex-direction: column;
   /* font-family: "Slabo 27px", serif; */
   font-family: 'Bebas Neue', cursive;
-
+  width: 100vw;
   text-align: center;
   margin: 0;
   align-items: center;
@@ -72,7 +72,7 @@ header {
 /* begin tour dates and video section */
 
 .tourDates {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
 }
@@ -86,10 +86,10 @@ header {
 
 .showInfo {
   list-style-type: none;
+  list-style-position: inside;
   border-bottom: 1px solid whitesmoke;
   margin: 6px;
   padding-bottom: 8px;
-
 }
 
 li {
@@ -97,19 +97,19 @@ li {
 }
 
 .date {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .location {
- font-size: 26px;
+ font-size: 2rem;
 }
 
 .venue {
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 
 .tourTitle {
-  font-size: 38px;
+  font-size: 3rem;
   text-decoration: underline;
   margin-bottom: 2px;
 }
@@ -148,25 +148,25 @@ li {
 .contactBox h2 {
   padding-bottom: 10px;
   margin-top: 0px;
-  font-size: 36px;
+  font-size: 2rem;
   margin-bottom: 0px;
 }
 
 .contactBox h3 {
-  font-size: 26px;
+  font-size: 1.5rem;
   margin: 0px;
 }
 
 .contactBox a {
   color: #D6DEB4;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 a:hover {
   opacity: 65%;
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 924px) {
   .contactBox {
     max-width: 100%;
     align-items: center;
