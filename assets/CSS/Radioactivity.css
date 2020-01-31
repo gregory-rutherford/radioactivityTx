@@ -171,9 +171,12 @@ a:hover {
     max-width: 100%;
     align-items: center;
     padding-left: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
     border: none;
   }
 }
 
+@media only screen and (max-width: 480px) {
+  body {
+    max-width: 480px;
+  }
+}
