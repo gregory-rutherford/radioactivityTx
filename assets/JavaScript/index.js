@@ -1,5 +1,5 @@
 const tourData = [
-  { location: "Chicago, IL", date: "2/20/20", venue: "The Empty Bottle" },
+  { location: "Chicago, IL", date: "2/19/20", venue: "The Empty Bottle" },
   { location: "Colombus, OH", date: "2/20/20", venue: "Ace of Cups" },
   { location: "Lancaster, PA", date: "2/21/20", venue: "ABAG" },
   { location: "Jersey City, NJ", date: "2/22/20", venue: "White Eagle Hall" },
