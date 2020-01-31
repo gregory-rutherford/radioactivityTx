@@ -28,7 +28,7 @@ html {
 
 #japanese {
   margin-top: 0;
-  font-size: 32px;
+  font-size: 22px;
 }
 
 header {
@@ -118,7 +118,7 @@ li {
 .contact {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-bottom: 40px;
   flex-wrap: wrap;
 }
@@ -127,35 +127,53 @@ li {
   max-width: 730px;
   max-height: 444px;
   margin-top: 20px;
-  box-shadow: 6px 6px #D6DEB4;
+  /* box-shadow: 6px 6px #D6DEB4; */
 }
 
 .contactBox {
   background-color: rgba(37, 32, 36, 0.767);
-  width: 400px;
-  min-width: 300px;
+  max-width: 400px;
+  max-height: 444px;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding-left: 30px;
   color: white;
-  justify-content: space-around;
-  padding-bottom: 18px;
   margin-top: 20px;
-  box-shadow: 6px 6px #D6DEB4;
-
+  border-left: 3px solid #D6DEB4;
+  justify-content: space-evenly;
 }
 
 .contactBox h2 {
-  padding-bottom: 0px;
-  font-size: 28px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  font-size: 36px;
   margin-bottom: 0px;
 }
 
-a {
+.contactBox h3 {
+  font-size: 26px;
+  margin: 0px;
+}
+
+.contactBox a {
   color: #D6DEB4;
+  font-size: 20px;
 }
 
 a:hover {
   opacity: 65%;
 }
+
+@media only screen and (max-width: 840px) {
+  .contactBox {
+    max-width: 100%;
+    align-items: center;
+    padding-left: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+  }
+}
+
