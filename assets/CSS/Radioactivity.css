@@ -77,6 +77,10 @@ header {
   align-items: center;
 }
 
+#corona {
+  font-size: 2rem;
+}
+
 .datesBox {
   display: grid;
   grid-template-columns: auto;
